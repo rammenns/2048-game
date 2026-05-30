@@ -1,0 +1,27 @@
+.board{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	gap:5px;
+}
+td{
+	width:120px;
+	height:120px;
+	border:1px solid black;
+	text-align:center;
+	font-size:55px;
+}
+.gamover{
+	font-size:25px;
+	color:white;
+	background-color:#8f7a66;
+	border:3px outset lightgray;
+	border-radius: 2px;
+}
+.gamover:active{
+	border-top:6px solid lightgray;
+	border-left:6px solid lightgray;
+	border-right:1.5px solid lightgray;
+	border-bottom:1.5px solid lightgray;
+}
